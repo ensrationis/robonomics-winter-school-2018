@@ -169,7 +169,7 @@ class WorkerNode:
     def do_work(self):
         ## PLACE YOUR WORKER CODE HERE
         # Get weather around mt. Fuji
-        api_key = 'e4119cc38e611fcda8d9a03afde0eec4'
+        api_key = '9b1cf7cb28f53562564f93ce9676a34c'
         c = HTTPConnection('api.openweathermap.org')
         c.request('GET', '/data/2.5/weather?q=Fuji,jp&appid='+api_key)
         res = c.getresponse()
